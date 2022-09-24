@@ -44,5 +44,6 @@ Luego, se debe localizar cual de los tres archivos corresponde con la funcionali
    python previsualize-image.py previsualize <originalFile> <newFile>
    ```
 
-3. compress-image.py:
+3.1. compress-image-30.py: Se encuentra la funcionalidad de comprimir sin pérdida de calidad pero en una razón de compresión menor a la esperada en el reto, siendo actualmente 3/10 y no 1/10. Por esta razón y porque consideramos que aún puede ser mejorada a nivel de optimización (como se verá en el segundo archivo "compress-image-window.py") no es funcional ni generica.
 
+3.2. compress-image-window.py: En este archivo se verá un proceso de compresión analizando los archivos origen en forma de ventana para hacer el proceso más óptimo pero debido a falta de tiempo para el desarrollo consideramos que esta funcionalidad se encuentra en desarrollo por lo que no es accesible como funci{on.
