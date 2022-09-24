@@ -10,11 +10,12 @@ P21 es una libreria open-source que ofrece funcionalidades para el procesamiento
 
 Primero, se debe clonar o descargar el repositorio para usar las funcionalidades. 
 
-Para utilizar la libreria, el usuario debe instalar las dependencias que se encuentran en requirements.txt utilizando el comando: 
+Para utilizar la libreria, el usuario debe instalar las dependencias que se usan en el proyecto. Entre estas encontramos, rasterio, quantumrandom, entre otras. Si no posee alguna en su entorno de trabajo, se debe instalar usando el siguiente comando o equivalentes donde **** corresponde al nombre de la dependencia a descargar:
 
 ```
-pip install requirements.txt
+pip install ****
 ```
+
 Luego, se debe localizar cual de los tres archivos corresponde con la funcionalidad deseada para el proyecto. 
 
 1. ofuscate-image.py: Se encuentra la funcionalidad de alterar las coordenadas geográficas de una imagen para evitar accesos indeseados de información. El método debe recibir por parámetro los siguientes valores: 
@@ -25,7 +26,12 @@ Luego, se debe localizar cual de los tres archivos corresponde con la funcionali
    - max: Límite superior donde se ofuscarán las coordenadas de la imagen dada.
    
    Al finalizar el método, debe quedar la imagen con coordenadas ofuscadas en la ubicación indicada por parámetro.
-
+   
+   Para convocarlo, debe ubicar el archivo donde desee ejecutarlo y usar el siguiente comando: 
+   ```
+   python ofuscate-image.py <originalFile> <newFile> <min> <max> 
+   ```
+   
 2. previsualize-image.py:
 
 3. compress-image.py:
