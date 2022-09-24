@@ -3,6 +3,7 @@ import rasterio
 import quantumrandom
 import affine
 import time
+import sys
 
 # start ofuscate method
 
@@ -37,3 +38,7 @@ def ofuscateImage(originalFile, newFile, min, max):
             new_dataset.write(originalImg.read(i), i)
     endTime = time.time()
     duration = endTime - startTime
+
+
+if __name__ == '__main__':
+    globals()[sys.argv[1]](sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
