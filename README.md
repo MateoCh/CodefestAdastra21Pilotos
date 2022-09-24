@@ -32,7 +32,17 @@ Luego, se debe localizar cual de los tres archivos corresponde con la funcionali
    python ofuscate-image.py ofuscateImage <originalFile> <newFile> <min> <max>  
    ```
    
-2. previsualize-image.py:
+2. previsualize-image.py: Se encuentra la funcionalidad de reducir el tamaño de una imagen a hasta un 5% de la imagen inicial, teniendo en cuenta que la imagen se pueda previsualizar. El método debe recibir por parámetro los siguientes valores: 
+
+   - originalFile: String con ubicación de la imagen satelital que a procesar. 
+   - newFile: String con ubicación que tendrá el nuevo archivo con las coordenadas ofuscadas.
+   
+   Al finalizar el método, debe quedar la imagen procesada en la ubicación indicada por parámetro.
+   
+   Para convocarlo, debe ubicar el archivo donde desee ejecutarlo y usar el siguiente comando: 
+   ```
+   python previsualize-image.py previsualize <originalFile> <newFile>
+   ```
 
 3. compress-image.py:
 
