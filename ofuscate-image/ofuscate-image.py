@@ -11,7 +11,8 @@ def ofuscateImage(originalFile, newFile, min, max):
 
     startTime = time.time()
     # Randomizer para escojer aleatoriamente como mover la imagen
-    # Pa
+    # Para mantenerse dentro de Colombia, se recomienda min = 50000 y max = 500000
+
     transX = quantumrandom.randint(50000, 500000)
     transY = quantumrandom.randint(50000, 500000)
 
