@@ -23,10 +23,10 @@ Luego, se debe localizar cual de los tres archivos corresponde con la funcionali
    - newFile: String con ubicación que tendrá el nuevo archivo con las coordenadas ofuscadas.
    - min: Límite inferior donde se ofuscarán las coordenadas de la imagen dada.
    - max: Límite superior donde se ofuscarán las coordenadas de la imagen dada.
-  
-Al finalizar el método, debe quedar la imagen con coordenadas ofuscadas en la ubicación indicada por parámetro.
+   
+   Al finalizar el método, debe quedar la imagen con coordenadas ofuscadas en la ubicación indicada por parámetro.
 
-2. 
+2. previsualize-image.py:
 
-3. 
+3. compress-image.py:
 
