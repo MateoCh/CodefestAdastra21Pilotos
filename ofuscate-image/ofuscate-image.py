@@ -41,4 +41,4 @@ def ofuscateImage(originalFile, newFile, min, max):
 
 
 if __name__ == '__main__':
-    globals()[sys.argv[1]](sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
+    globals()[sys.argv[0]](sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])
