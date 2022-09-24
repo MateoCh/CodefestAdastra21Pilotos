@@ -1,4 +1,4 @@
-#P21 -  Procesamiento de imagenes satelitales
+# P21 -  Procesamiento de imagenes satelitales
 
 P21 es una libreria open-source que ofrece funcionalidades para el procesamiento de imagenes aéreas y satelitales. Especificamente, la libreria ofrece las siguientes funciones: 
 
