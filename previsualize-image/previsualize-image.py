@@ -8,8 +8,6 @@ from rasterio.enums import Resampling
 
 
 def previsualize(originalFile, newFile):
-    # Inicia el temporizador para medir rendimiento del algoritmo
-    start = time.time()
     # Se lee la imagen original
     originalImg = rasterio.open(originalFile)
 
@@ -36,10 +34,6 @@ def previsualize(originalFile, newFile):
     # Ya teniendo la imagen con menor resolución se guarda en archivo
     with rasterio.open(newFile, 'w', **profile) as destination:
         destination.write(data)
-    # Se calcula el tiempo total que duró el algoritmo ejecutandose y se imprime
-    end = time.time()
-    time = end - start
-    print(f'El programa tomó {time}')
 
 
 if __name__ == '__main__':
