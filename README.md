@@ -29,7 +29,7 @@ Luego, se debe localizar cual de los tres archivos corresponde con la funcionali
    
    Para convocarlo, debe ubicar el archivo donde desee ejecutarlo y usar el siguiente comando: 
    ```
-   python ofuscate-image.py <originalFile> <newFile> <min> <max> 
+   python ofuscate-image.py ofuscateImage <originalFile> <newFile> <min> <max>  
    ```
    
 2. previsualize-image.py:
