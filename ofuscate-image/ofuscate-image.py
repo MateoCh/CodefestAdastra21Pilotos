@@ -13,8 +13,8 @@ def ofuscateImage(originalFile, newFile, min, max):
     # Randomizer para escojer aleatoriamente como mover la imagen
     # Para mantenerse dentro de Colombia, se recomienda min = 50000 y max = 500000
 
-    transX = quantumrandom.randint(50000, 500000)
-    transY = quantumrandom.randint(50000, 500000)
+    transX = quantumrandom.randint(min, max)
+    transY = quantumrandom.randint(min, max)
 
     # Se lee la imagen original
     originalImg = rasterio.open(originalFile)
